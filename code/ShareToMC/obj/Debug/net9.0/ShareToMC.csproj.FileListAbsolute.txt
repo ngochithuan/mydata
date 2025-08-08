@@ -1,0 +1,14 @@
+T:\Code\ShareToMC\bin\Debug\net9.0\ShareToMC.exe
+T:\Code\ShareToMC\bin\Debug\net9.0\ShareToMC.deps.json
+T:\Code\ShareToMC\bin\Debug\net9.0\ShareToMC.runtimeconfig.json
+T:\Code\ShareToMC\bin\Debug\net9.0\ShareToMC.dll
+T:\Code\ShareToMC\bin\Debug\net9.0\ShareToMC.pdb
+T:\Code\ShareToMC\obj\Debug\net9.0\ShareToMC.GeneratedMSBuildEditorConfig.editorconfig
+T:\Code\ShareToMC\obj\Debug\net9.0\ShareToMC.AssemblyInfoInputs.cache
+T:\Code\ShareToMC\obj\Debug\net9.0\ShareToMC.AssemblyInfo.cs
+T:\Code\ShareToMC\obj\Debug\net9.0\ShareToMC.csproj.CoreCompileInputs.cache
+T:\Code\ShareToMC\obj\Debug\net9.0\ShareToMC.dll
+T:\Code\ShareToMC\obj\Debug\net9.0\refint\ShareToMC.dll
+T:\Code\ShareToMC\obj\Debug\net9.0\ShareToMC.pdb
+T:\Code\ShareToMC\obj\Debug\net9.0\ShareToMC.genruntimeconfig.cache
+T:\Code\ShareToMC\obj\Debug\net9.0\ref\ShareToMC.dll

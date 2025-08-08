@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Services</title>
+</head>
+
+<style>
+    .sidebar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: transparent;
+        padding: 10px;
+
+    }
+
+    .container {
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .sidebar {
+        position: sticky;
+        top: 100px;
+        height: 100vh;
+        overflow-y: auto;
+    }
+
+    .sidebar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.4;
+        filter: blur(5px);
+    }
+
+    body {
+        background-color: #f8f9fa;
+    }
+
+    h2 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .sprite-product-sharing {
+        width: 32px;
+        height: 32px;
+        background-image: url('sprite-sharing-icons.png');
+        /* Ảnh sprite */
+        background-size: cover;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .sprite-product-sharing-fm {
+        background-position: 0 0;
+    }
+
+    /* Messenger */
+    .sprite-product-sharing-fb {
+        background-position: -40px 0;
+    }
+
+    /* Facebook */
+    .sprite-product-sharing-pt {
+        background-position: -80px 0;
+    }
+
+    /* Pinterest */
+
+    .Vo8Ebs {
+        margin-right: 8px;
+    }
+
+    .product-title {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+</style>
+
+<body>
+    <header style="position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+    z-index: 1;" class="bg-dark py-3">
+        <div class="container shadow bg-dark text-white">
+            <div class="row">
+                <div class="col-2 py-3">
+                    <img src="Logo.png" style="max-width: 50%;" alt="logo">
+                </div>
+
+                <div class="col-10 d-flex flex-row-reverse">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarNav">
+
+                                <form class="d-flex">
+                                    <input class="form-control mr-2" type="text" placeholder="Search">
+                                    <button class="btn btn-primary" type="button">Search</button>
+                                </form>
+
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item text-right">
+                                        <a class="nav-link text-white" href="Home_page.html"><b>Home</b></a>
+                                    </li>
+                                    <li class="nav-item text-right">
+                                        <a class="nav-link text-muted" href="about.html"><b>About</b></a>
+                                    </li>
+                                    <li class="nav-item text-right">
+                                        <a class="nav-link text-muted" href="Product_Category_Page.html"><b>Services</b></a>
+                                    </li>
+                                    <li class="nav-item text-right">
+                                        <a class="nav-link text-muted" href="contact_page.html"><b>Contact</b></a>
+                                    </li>
+                                    <li class="nav-item text-right">
+                                        <a class="nav-link text-white"
+                                            href="Login_Interface/index.html"><b>Login</b></a>
+                                    </li>
+                                    <li class="nav-item text-right">
+                                        <a class="nav-link text-white"
+                                            href="Register Form.html"><b>Register</b></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Left sibebar 2 grids -->
+
+                <div class="col-lg-2 col-xl-2 d-none d-lg-block sidebar">
+                    <img src="Products/bg_body - Copy.jpg" class="img-fluid" alt="Left Sidebar">
+                </div>
+                <!--  Main content 8 grids -->
+                <div class="item col-xl-8 col-lg-8 col-md-12 col-sm-12 p-4">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <!-- Main Product Image -->
+                            <!-- Carousel for main images -->
+                            <div id="carouselExampleIndicators" class="carousel slide col-12 p-3" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="item_info/torras1.jpg" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="item_info/torras2.jpg" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="item_info/torras3.jpg" alt="Third slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <div class="mt-3 d-flex align-items-center">
+                                <span class="me-2">Chia sẻ:</span>
+
+                                <a class="Vo8Ebs" href="https://www.messenger.com/" target="_blank">
+                                    <img src="item_info/messenger_logo.webp" alt="Messenger" width="32">
+                                </a>
+
+                                <a class="Vo8Ebs" href="https://www.facebook.com/" target="_blank">
+                                    <img src="item_info/facebook_logo.webp" alt="Facebook" width="32">
+                                </a>
+
+                                <a class="Vo8Ebs" href="https://www.pinterest.com/" target="_blank">
+                                    <img src="item_info/pinterest_logo.jpg" alt="Pinterest" width="32">
+                                </a>
+                            </div>
+
+                            <!-- Love/Rate Button -->
+                            <div class="mt-3 d-flex align-items-center">
+                                <button class="btn btn-light border">
+                                    <i class="fa fa-heart text-danger"></i> Đã thích (86)
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="container col-md-7">
+                            <h3>TORRAS Power Cloud</h3>
+                            <p>PD 65W | White | Power Station</p>
+                            <p>
+                                <span class="text-danger h1">$50.00</span>
+                                <small><del>$60.00</del></small>
+                                <span class="text-success">(-24%)</span>
+                            </p>
+
+                            <p>
+                                <strong>Quantity:</strong>
+                                <input type="number" value="1" min="1" class="form-control-inline w-2">
+                            </p>
+                            <button class="btn btn-danger">Buy Now</button>
+                            <button class="btn btn-dark">Add to cart</button>
+                        </div>
+                        <div class="h2 col-12"> About this item</div>
+                        <div class="h3 col-12">PRODUCT DESCRIPTION - TORRAS Power Cloud</div>
+                        <pre>
+                            Product Features:
+                                Advanced cooling technology that maintains stable temperatures for devices, preventing
+                            overheating and improving performance.
+                            Compact and sleek design, easy to carry and use anywhere.
+                            Ultra-quiet operation, providing a smooth and comfortable experience without noise.
+                            Widely compatible with various devices such as smartphones, tablets, laptops, gaming
+                            consoles, and other electronics.
+                            Energy-efficient, minimizing power consumption while maintaining excellent cooling
+                            performance.
+
+                            Product Specifications:
+                            - Name: TORRAS Power Cloud
+                            - Model: TORRAS Power Cloud Cooling Device
+                            - Operating Voltage: 5V
+                            - Cooling Speed: Super fast, immediate effectiveness
+                            - Storage Type: Cooling device
+                            - Dimensions: 150mm x 75mm x 50mm
+                            - Weight: 350g (approx.)
+                            - Certifications: CE, FCC, RoHS
+                            - Color: White, Black
+                            - Compatible with: Smartphones, tablets, gaming consoles, laptops, and other electronic
+                            devices.
+
+                            Package Includes:
+                            - 1 * TORRAS Power Cloud
+                            - 1 * User manual
+                            - 1 * Connecting cable
+                            Note:
+                                The actual color of the item may vary slightly from the images shown on the website due to
+                            factors such as screen brightness and lighting conditions.
+                            Please allow slight measurement deviations due to manual measurements.
+                       </pre>
+
+                    </div>
+                </div>
+
+                <!-- Right SibeBar 2 Grids -->
+                <div class="col-lg-2 col-xl-2 d-none d-lg-block sidebar">
+                    <img src="Products/bg_body.jpg" class="img-fluid" alt="Right Sidebar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container mt-3 col-xl-12 col-lg-12 col-sm-12 col-md-12 shadow p-4 bg-dark text-white text-center">
+        Copyright &#169; Decor Dream 2025
+    </footer>
+</body>
+
+</html>

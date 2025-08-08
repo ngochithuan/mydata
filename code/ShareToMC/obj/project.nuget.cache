@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KbXXDBi+S2o=",
+  "success": true,
+  "projectFilePath": "T:\\Code\\ShareToMC\\ShareToMC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thuan\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.5\\microsoft.win32.systemevents.9.0.5.nupkg.sha512",
+    "C:\\Users\\thuan\\.nuget\\packages\\system.drawing.common\\9.0.5\\system.drawing.common.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

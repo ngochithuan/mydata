@@ -1,0 +1,1 @@
+tellraw @a "NgoThuan cam on :D"

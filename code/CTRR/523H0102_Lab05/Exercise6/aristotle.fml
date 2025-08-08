@@ -1,0 +1,7 @@
+E x (Triangle(x) /\ Large(x))
+E x (Triangle(x) /\ Medium(x))
+E x (Square(x) /\ ~Small(x))
+A x (Square(x) /\ Medium(x))
+A x (Pentagon(x) /\ Medium(Small))
+A x (Triangle(x) /\ ~Small(x))
+A x (Square(x) /\ ~Triangle(x))

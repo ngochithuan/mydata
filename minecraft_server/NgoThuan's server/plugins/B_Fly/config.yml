@@ -1,0 +1,7 @@
+#MESSAGES
+no-perm: "§7» You don't have permission to use that command! §5b.fly"
+no-perm-other: "§7» You do not have permissions to use this command on others.! §5b.fly.others"
+not-found: "§7» Player with the given nickname not found."
+usage: "§7» Usage: §5/fly §7|§5 /fly <player>"
+enabled: "§7» Flight §aenabled"
+disabled: "§7» Flight §cdisabled"

@@ -1,0 +1,6 @@
+[Sinh vien] (Masv, hoten, Malop) (Malop: FK) – [Lop hoc] (MaLop, Tenlop): n – 1
+[Can Bo Cong nhan vien] (Mã số, Họ tên) – [Giang vien] (Mã số, Trình độ, chuyên ngành): 1-1
+
+
+// input2
+[Can Bo Cong nhan vien] (Mã số, Họ tên) – [Giang vien] (Trình độ, chuyên ngành): Cha – con

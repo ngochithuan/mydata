@@ -1,0 +1,8 @@
+Between(c,a,d) /\ ~Triangle(c)
+E x BackOf(x,a) /\ E x FrontOf(x,c)
+FrontOf(a,c) /\ ~E x (BackOf(x,a) /\ FrontOf(x,c))
+E x LeftOf(x,d) <=> Large(b)
+E x E y (~Triangle(x) /\ ~Triangle(y) /\ Between(b, x, y))
+FrontOf(d,b) /\ LeftOf(d,f)
+Pentagon(e)
+~E x LeftOf(x,e) \/ Large(e)

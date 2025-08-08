@@ -1,0 +1,245 @@
+[16:06:51] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:06:53] [ServerMain/INFO]: Loaded 7 recipes
+[16:06:53] [ServerMain/ERROR]: Couldn't load tag minecraft:tick as it is missing following references: ngothuan:tick (from file/Blank Datapack)
+[16:06:53] [ServerMain/ERROR]: Couldn't load tag minecraft:load as it is missing following references: ngothuan:load (from file/Blank Datapack)
+[16:06:54] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:06:54] [Server thread/INFO]: Loading properties
+[16:06:54] [Server thread/INFO]: This server is running CraftBukkit version 3871-Spigot-d2eba2c-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[16:06:55] [Server thread/INFO]: Debug logging is disabled
+[16:06:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:06:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:06:55] [Server thread/INFO]: Default game type: SURVIVAL
+[16:06:55] [Server thread/INFO]: Generating keypair
+[16:06:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:06:56] [Server thread/INFO]: Using default channel type
+[16:06:56] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:06:59] [Server thread/WARN]: Legacy plugin RaspberryJuice v1.12.1 does not specify an api-version.
+[16:06:59] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.15+6463-5ca4dff
+[16:07:00] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@402929a4]
+[16:07:00] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.9.3
+[16:07:00] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[16:07:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:07:01] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:07:01] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:07:01] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:07:01] [Server thread/INFO]: [B_Fly] Loading B_Fly v1.0
+[16:07:01] [Server thread/INFO]: [FirstPlugin] Loading FirstPlugin v1.0
+[16:07:01] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
+[16:07:01] [Server thread/INFO]: [OtterChat] Loading OtterChat v1.0
+[16:07:01] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.9.2
+[16:07:01] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.12.1
+[16:07:01] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[16:07:01] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:07:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:07:02] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[16:07:03] [Server thread/INFO]: [WorldEdit] ====================================================
+[16:07:03] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[16:07:03] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[16:07:03] [Server thread/INFO]: [WorldEdit]   
+[16:07:03] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[16:07:03] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[16:07:03] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[16:07:03] [Server thread/INFO]: [WorldEdit]   
+[16:07:03] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[16:07:03] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[16:07:03] [Server thread/INFO]: [WorldEdit]   
+[16:07:03] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[16:07:03] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[16:07:03] [Server thread/INFO]: [WorldEdit]   
+[16:07:03] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[16:07:03] [Server thread/INFO]: [WorldEdit] ====================================================
+[16:07:03] [Server thread/INFO]: Preparing level "world"
+[16:07:03] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:07:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:07:03] [Server thread/INFO]: View Distance: 8
+[16:07:03] [Server thread/INFO]: Simulation Distance: 5
+[16:07:03] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:07:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:07:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:07:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:07:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:07:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:07:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:07:03] [Server thread/INFO]: Mob Spawn Range: 6
+[16:07:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:07:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:07:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:07:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:07:03] [Server thread/INFO]: Max TNT Explosions: 100
+[16:07:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:07:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:07:03] [Server thread/INFO]: View Distance: 8
+[16:07:03] [Server thread/INFO]: Simulation Distance: 5
+[16:07:03] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:07:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:07:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:07:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:07:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:07:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:07:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:07:03] [Server thread/INFO]: Mob Spawn Range: 6
+[16:07:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:07:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:07:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:07:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:07:03] [Server thread/INFO]: Max TNT Explosions: 100
+[16:07:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:07:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:07:03] [Server thread/INFO]: View Distance: 8
+[16:07:03] [Server thread/INFO]: Simulation Distance: 5
+[16:07:03] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:07:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:07:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:07:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:07:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:07:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:07:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:07:03] [Server thread/INFO]: Mob Spawn Range: 6
+[16:07:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:07:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:07:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:07:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:07:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:07:03] [Server thread/INFO]: Max TNT Explosions: 100
+[16:07:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:07:06] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:07:06] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:07:06] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[16:07:06] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[16:07:06] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[16:07:06] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[16:07:06] [Worker-Main-2/INFO]: Preparing spawn area: 27%
+[16:07:07] [Server thread/INFO]: Time elapsed: 3421 ms
+[16:07:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:07:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:07:08] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[16:07:08] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:07:08] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:07:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:07:09] [Worker-Main-1/INFO]: Preparing spawn area: 78%
+[16:07:09] [Server thread/INFO]: Time elapsed: 2629 ms
+[16:07:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:07:10] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:07:10] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[16:07:10] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[16:07:11] [Worker-Main-1/INFO]: Preparing spawn area: 90%
+[16:07:11] [Server thread/INFO]: Time elapsed: 1522 ms
+[16:07:11] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[16:07:11] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
+[16:07:11] [Server thread/INFO]: [B_Fly] Enabling B_Fly v1.0
+[16:07:11] [Server thread/INFO]: [FirstPlugin] Enabling FirstPlugin v1.0
+[16:07:11] [Server thread/INFO]: Hello world, it's started
+[16:07:11] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
+[16:07:11] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[16:07:11] [Server thread/INFO]: | Vault plugin not found. Using BukkitPermissions
+[16:07:11] [Server thread/INFO]: | No Economy support without Vault!
+[16:07:11] [Server thread/INFO]: | Command file(s) found : 1
+[16:07:11] [Server thread/INFO]: | Config : Ready.
+[16:07:11] [Server thread/INFO]: | ProtocolLib not found.
+[16:07:11] [Server thread/INFO]: | PlaceholderAPI: Not Found
+[16:07:11] [Server thread/INFO]: | Custom commands loaded : 44
+[16:07:11] [Server thread/INFO]: | New update available : MyCommand v5.7.5
+[16:07:11] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[16:07:11] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[16:07:11] [Server thread/INFO]: [OtterChat] Enabling OtterChat v1.0
+[16:07:11] [Server thread/INFO]: [OtterChat]: Plugin has been loaded
+[16:07:11] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[16:07:11] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.12.1
+[16:07:11] [Server thread/INFO]: [RaspberryJuice] Using host:port - 0.0.0.0:4711
+[16:07:11] [Server thread/INFO]: [RaspberryJuice] Using RELATIVE locations
+[16:07:11] [Server thread/INFO]: [RaspberryJuice] Using RIGHT clicks for hits
+[16:07:11] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[16:07:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:07:11] [Server thread/INFO]: Done (8.644s)! For help, type "help"
+[16:07:11] [Craft Scheduler Thread - 1/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:07:12] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.0, you're on: 4.9.3
+[16:07:12] [User Authenticator #1/INFO]: UUID of player NgoThuan is 13534696-30a5-4083-ab39-b09b9c0e2411
+[16:07:12] [Server thread/INFO]: Welcome NgoThuan[m
+[16:07:12] [Server thread/INFO]: NgoThuan joined the game
+[16:07:13] [Server thread/INFO]: NgoThuan[/127.0.0.1:55849] logged in with entity id 128 at ([world]44.585164542619694, 26.952121169953227, 34.518916449261184)
+[16:07:21] [Server thread/INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
+[16:07:31] [Server thread/INFO]: NgoThuan lost connection: Disconnected
+[16:07:31] [Server thread/INFO]: NgoThuan left the game
+[16:07:35] [Server thread/INFO]: Stopping the server
+[16:07:35] [Server thread/INFO]: Stopping server
+[16:07:35] [Server thread/INFO]: [RaspberryJuice] Disabling RaspberryJuice v1.12.1
+[16:07:35] [Server thread/INFO]: [RaspberryJuice] Raspberry Juice Stopped
+[16:07:35] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[16:07:35] [Server thread/INFO]: [OtterChat] Disabling OtterChat v1.0
+[16:07:35] [Server thread/INFO]: [OtterChat]: Bye
+[16:07:35] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.7.4
+[16:07:35] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[16:07:35] [Server thread/INFO]: | Tasks : Stopped all tasks.
+[16:07:35] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
+[16:07:35] [Server thread/INFO]: [FirstPlugin] Disabling FirstPlugin v1.0
+[16:07:35] [Server thread/INFO]: It's stopped
+[16:07:35] [Server thread/INFO]: [B_Fly] Disabling B_Fly v1.0
+[16:07:35] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[16:07:35] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[16:07:35] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
+[16:07:35] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:07:35] [Server thread/INFO]: Saving players
+[16:07:35] [Server thread/INFO]: Saving worlds
+[16:07:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:07:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:07:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:07:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:07:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:07:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:07:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

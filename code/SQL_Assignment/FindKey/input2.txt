@@ -1,0 +1,2 @@
+{A,B,C,D,E,G,H,I};{AC->B,BI->CD,ABC->D,H->I,ACE->BCG,CG->AE}
+{A,B,C,D,E,G};{AE->C,CG->A,BD->G,GA->E}

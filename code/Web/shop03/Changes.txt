@@ -1,0 +1,13 @@
+22/03/2025
+
+Ver 0.1
+Thêm:
+- [Home, Services] Thên "Giỏ hàng", "Logout" trên navbar
+- Làm sáng các Item trên navbar sau khi chuyển trang
+
+Thay đổi:
+- [login] div -> button ở phần đăng nhập bằng fb, gg (vì dùng div tô chữ được)
+
+Ver O.2
+Thay đổi:
+- Ẩn "Login" và "Register"

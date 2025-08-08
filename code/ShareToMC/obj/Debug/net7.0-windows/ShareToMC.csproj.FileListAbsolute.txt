@@ -1,0 +1,17 @@
+T:\Code\ShareToMC\obj\Debug\net7.0-windows\ShareToMC.csproj.AssemblyReference.cache
+T:\Code\ShareToMC\obj\Debug\net7.0-windows\ShareToMC.GeneratedMSBuildEditorConfig.editorconfig
+T:\Code\ShareToMC\obj\Debug\net7.0-windows\ShareToMC.AssemblyInfoInputs.cache
+T:\Code\ShareToMC\obj\Debug\net7.0-windows\ShareToMC.AssemblyInfo.cs
+T:\Code\ShareToMC\obj\Debug\net7.0-windows\ShareToMC.csproj.CoreCompileInputs.cache
+T:\Code\ShareToMC\bin\Debug\net7.0-windows\ShareToMC.exe
+T:\Code\ShareToMC\bin\Debug\net7.0-windows\ShareToMC.deps.json
+T:\Code\ShareToMC\bin\Debug\net7.0-windows\ShareToMC.runtimeconfig.json
+T:\Code\ShareToMC\bin\Debug\net7.0-windows\ShareToMC.dll
+T:\Code\ShareToMC\bin\Debug\net7.0-windows\ShareToMC.pdb
+T:\Code\ShareToMC\bin\Debug\net7.0-windows\System.Drawing.Common.dll
+T:\Code\ShareToMC\obj\Debug\net7.0-windows\ShareToMC.csproj.Up2Date
+T:\Code\ShareToMC\obj\Debug\net7.0-windows\ShareToMC.dll
+T:\Code\ShareToMC\obj\Debug\net7.0-windows\refint\ShareToMC.dll
+T:\Code\ShareToMC\obj\Debug\net7.0-windows\ShareToMC.pdb
+T:\Code\ShareToMC\obj\Debug\net7.0-windows\ShareToMC.genruntimeconfig.cache
+T:\Code\ShareToMC\obj\Debug\net7.0-windows\ref\ShareToMC.dll
