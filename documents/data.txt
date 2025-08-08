@@ -1,0 +1,9 @@
+firebaseConfig = {
+  apiKey: "AIzaSyByUCEoGBAtcbO_M0V9laDmHBiNYCJ1pqg",
+  authDomain: "fir-test-f6d3d.firebaseapp.com",
+  projectId: "fir-test-f6d3d",
+  storageBucket: "fir-test-f6d3d.appspot.com",
+  messagingSenderId: "786674434709",
+  appId: "1:786674434709:web:3f155cc983f6cfd5c6919c",
+  measurementId: "G-XZ4JBFVVHY"
+};

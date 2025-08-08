@@ -1,0 +1,28 @@
+TRUY VẪN
+	select <Cột>, <...>
+	from <bảng>, <...>
+	where <điều kiện> and <...>
+	group by <Cột>, <...>
+	having <điều kiện của nhóm>
+	order by <cột> ASC/DESC
+
+KHAI BÁO BIẾN, THÊM DỮ LIỆU VÀO BIẾN
+	declare @t <kiểu dữ liệu>
+	set @t = <giá trị phù hợp với kiểu dữ liệu>
+
+THÊM: add
+XÓA: drop
+
+CHỈNH SỬA SAU KHI ĐÃ TẠO BẢNG
+	alter table <bảng> add/drop <...>
+	... add constraint pk_dmsv primary key(masv)
+	... drop pk_dmsv
+	
+CHÈN VÀO BẢNG GIÁ TRỊ
+	insert into <bảng> (cột_1, cột_2, ..., cột_n)
+	values (gt1, gt2, ..., gtn)
+
+
+ĐẠI SỐ QUAN HỆ
+	Phép chiếu
+	Phép chọn

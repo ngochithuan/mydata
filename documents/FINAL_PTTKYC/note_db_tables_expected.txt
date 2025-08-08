@@ -1,0 +1,67 @@
+Table: Users
+-> thuộc tính đê phân biệt Admin, Staff (Receptionist, House keeper, Parking Staff), Customer
++ userId
++ ... username, name, email, phone
++ isStaff
++ isAdmin
+
+
+Table: Rooms
++ roomId
++ roomTitle
++ roomType
++ roomDescription
++ roomImgs
+
+
+Table: Bookings
++ roomId
++ userId
++ bookingId
++ checkInDate
++ checkOutDate
+
+
+Table: Reviews
++ roomId
++ userId
++ bookingId
++ content
+
+
+tui muốn book 5 người, ngày 5 -> 7.
+
+-> tìm trong Rooms, xem có roomId nào tồn tại trong bảng Bookings mà có checkIn > 5 và < 7 ko và cũng như checkOut 
+=> room nào mà ko có trong danh sách trên --> nó ok trong khoảng 5 -> 7
+--> list roomIds 
+--> list rooms
+--> lọc list rooms theo số người + roomType
+
+----------------------------------------------------
+
+Dữ liệu của Room Table:
+
+{
+    id: 0,
+    title: "Economy Room",
+    type: "CITY VIEW | DOUBLE BED | 41 M²",
+    description:
+      "Comfortable and spacious room with views over the city featuring a double bed or 2 single beds, LCD TV, minibar, safe, and a range of quality amenities and excellent services.",
+    img: bed1,
+  },
+  {
+    id: 1,
+    title: "Deluxe Room",
+    type: "RIVER VIEW | DOUBLE BED | 45 M²",
+    description:
+      "Step into luxury and enjoy the views of the river from your room. Perfect for families or business travellers who appreciate space and luxurious design, offering a spacious lounge with a comfortable sofa and a separate bedroom.",
+    img: bed2,
+  },
+  {
+    id: 2,
+    title: "Premium Room",
+    type: "CITY VIEW | KING-SIZE BED | 55 M²",
+    description:
+      "Our most lavish rooms offer a spacious king-size bed and large windows with city views. The separate lounge has a sofa and a dining table for up to 4 people. Enjoy magnificent city views from all of the spaces in this suite.",
+    img: bed3,
+  },

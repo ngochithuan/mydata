@@ -1,0 +1,167 @@
+Which of the following is NOT a commonly used network device?
+Modem
+Router
+Switch
+CPU
+
+Which protocol is used for secure remote login?
+Telnet
+OFTP
+SSH
+HTTP
+
+Which protocol is used for sending email over the Intemet?
+HTTP
+SMTP
+FTP
+DNS
+
+When the client nects to the network for the first time and wants to get an IP address from DHCP Server automatically. What is the correct order of steps to get an IP address?
+DHCP Discover -> DHCP Offer -> DHCP Request -> DHOP ACK
+DHCP Discover -> DHCP Request -> DHCP Offer -> DHCP ACK
+DHCP Request -> DHCP Offer -> DHCP Discover -> DHCP ACK
+DHCP Request -> DHCP Discover -> DHCP Offer -> DHCP ACK
+
+Suppose you would like to urgently deliver 40 terabytes of data from HaNoi to Ho Chi Minh. You have available a 100 Mbps dedicated link for data transfer. How long does it take to transfer this data?
+35 days
+36 days
+34 days
+37 days
+
+Which type of HTTP connection keeps connections open after a request to the server?
+non-persistent with parallel connections
+canonical hostname
+persistent connections
+non-persistent connections
+
+Which layer of the OSI model is responsible for routing?
+Network layer
+Transport layer
+Data link layer
+Application layer
+
+Which protocol is used for remote desktop sharing?
+SMTP
+VNC
+FTP
+IRC
+
+When a client connects into a network for the first time and it wants to get an IP address automatically using DHCP. What is the first message it sends to find the DHCP server?
+DHCP Request
+ODHCP Offer
+DHCP Discover
+DHCP ACK
+
+In the layer hierarchy, as the data packet moves from the upper to the lower layers, what happens to the headers?
+Removed
+Added
+Rearranged
+Modified
+
+Which is a set of rules that governs data communication?
+Protocols
+HTTP
+IP
+FTP
+
+Which field in the TCP header is used to indicate the maximum segment size that a sender can send?
+Source port
+Destination port
+Maximum segment size
+Sequence number
+
+What does the term DHCP mean?
+Domain Host Configuration Protocol
+Domain Host Configuration Provider
+Dynamic Host Configuration Protocol
+Dynamic Host Configuration Provider
+
+Which of the following is not a type of network cable?
+Twisted pair
+Coaxial
+Ethenet
+Fiber optic
+
+Which flag in the TCP header is used to indicate that the sender is acknowledging receipt of a segment?
+FIN
+ORST
+SYN
+ACK
+
+Which of the following is NOT a network edge device?
+Host
+PC
+Router
+Server
+
+Which field in the TCP header is used to indicate the acknowledgment number of the next byte of data that the receiver is expecting?
+Destination port
+Sequence number
+Source port
+Acknowledgment number
+
+Which of the following is NOT a type of transport layer protocol?
+TCP
+ICMP
+UDP
+SCTP
+
+Which flag in the TCP header is used to indicate that the sender has received an acknowledgment for all data and wishes to terminate the connection?
+ACK
+FIN
+SYN
+RST
+
+Which protocol is used for remote access to a computer or network?
+HTTP
+SMTP
+FTP
+Telnet
+
+Which protocol is used for real-time data transfer over the internet, such as voice and video chat?
+UDP
+TCP
+HTTP
+SMTP
+
+Which of the following is NOT a type of email protocol?
+IMAP
+SMTP
+ICMP
+POP
+
+What is the time required to examine the packet's header and determine where to direct the packet called?
+queueing delay
+propagation delay
+processing delay
+transmission delay
+
+What are the IETF standards documents called?
+ID
+RCF
+RFC
+DFC
+
+Which occurs when either a packet arrives or an already-queued packet is dropped?
+queueing delay
+transmission delay
+propagation delay
+packet loss
+
+On the Internet, what is the host identified by?
+DNS
+IP address
+Socket
+MAC address
+
+On the internet, what is the host identified by?
+DNS
+IP address
+Socket
+MAC address
+
+What is the time a packet takes to travel from client to server and then back to the client called?
+JIT
+RTT
+STT
+PTT

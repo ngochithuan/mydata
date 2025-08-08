@@ -1,0 +1,67 @@
+REVIEW CONTENTS OF MIDDLE-TERM EXAMINATION
+
+Subject: Introduction to Computer Networks
+Exam format: Multiple choice questions
+Number of sentences: 30 questions (Questions in English)
+Time: 45 minutes
+
+CONTENTS:
+
+Chapter 1: Computer Networks and the Internet
+- What is the internet?
+- What are router, switch, moderm and what they used for?
+- Concepts of end systems, end devices, hosts, network edge, network core, ...
+- Identify network devices, types of network cable
+- Compare the differences between LAN and WAN
+- Operation functions and principles of the layers in the network OSI model, TCP/IP model, IP Stack;
+- Data encapsulation process.
+- Protocol data units (PDUs) at the layers of the OSI model.
+- Abbreviated terms
+	+ MTU
+	+ API
+	+ PDU
+	+ OSI model
+	+ TCP/IP model
+	+ OUI
+	+ ADSL
+	+ 3G
+	+ LTE
+- HTTP connections? (Non-persistent and persistent)
+
+
+Chapter 2: Application layer
+- Application layer applications and corresponding protocols?
+- What is the protocol?
+- Types of network protocols: HTTP, DHCP, FTP, IP, DNS, SMTP, .... and its working principles.
+	+ HTTP
+	+ SMTP
+	+ FTP
+	+ DNS
+	+ DHCP
+	+ Telnet and SSH
+	+ VoIP
+	+ SNMP
+	+ NTP
+- Email protocols Email (SMTP, POP, POP3, IMAP, HTTP)
+- Domain Name System (Domain Name System) and its functions.
+- File distribution time (File Distribution) between client-server; P2P
+
+Chapter 3: Transport layer
+- Compare characteristics between OSI, TCP/IP model
+- What is the data unit at each layer?
+- What is the task of each layer in the OSI, TCP/IP model?
+- Functions, characteristics, operating principles, compare the basic differences of TCP and UDP?
+- Packet switching and circuit switching
+- Port number on the machine running application services
+	+ FTP
+	+ DNS
+	+ SMTP
+	+ HTTP
+	+ SMTP
+	+ IMAP
+	+ POP/POP3
+	+ Telnet
+	+ TFTP
+- TCP/UDP packet structure (TCP/UDP segment format): length of fields in IPv6 and IPv4 packet structure
+(eg: Source port #, Destination port #, length, checksum, header, ...)
+- Flags in the TCP header (ex: SYN, ACK, FIN, RST, ...)

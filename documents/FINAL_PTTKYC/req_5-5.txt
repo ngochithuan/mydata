@@ -1,0 +1,80 @@
+Các bảng hoàn chỉnh:
+Table: Users
+-> thuộc tính đê phân biệt Admin, Staff (Receptionist, House keeper, Parking Staff), Customer
++ userId
++ fullname (required)
++ email?
++ phone (required)
++ isStaff
++ roleName (normalStaff, cleaningStaff, guard, admin)
+
+
+Table: Rooms
++ roomId
++ roomTitle
++ roomTypeId
++ roomDescription
++ roomImage
++ roomStatus (available, checkedin, pending -> để dọn cbi phòng)
+
+
+Table: RoomType
++ roomTypeId
++ roomDesc
++ roomFeatures
++ roomAmenities
++ roomImg
++ roomPrice
+
+
+Table: Bookings (theo lần nghỉ/đặt)
++ bookingId (PK)
++ userId? (nullable, nếu user đã login)
++ fullname? (nullable)
++ email? (nullable)
++ phone? (nullable)
++ checkInDate
++ checkOutDate
++ totalPrice
++ paymentStatus
+
+
+Table: BookingDetails (theo từng phòng)
++ bookingDetailId (PK)
++ bookingId (FK -> Bookings.bookingId)
++ roomId (FK -> Rooms.roomId)
+
+
+Table: Reviews (theo lần nghỉ/đặt)
++ reviewId
++ roomId
++ userId
++ bookingId
++ reviewContent
++ rating
+
+
+Table: RoomService (theo từng phòng)
++ roomServiceId
++ roomId
++ datetime
++ isCleaningDone (= false default)
+
+
+Table: ParkingService (theo lần nghỉ/đặt)
++ parkingServiceId
++ bookingId
++ parkingPlateNo = VARCHAR -> hiển thị ra bằng 1 textarea, staff nhập vô. Vd: 51G-61660, 52F-67558
+
+M chỉnh theo cái db này nha, đảm bảo đúng thuộc tính.
+
+Các mối quan hệ:
+Users - Bookings: 1-n
+Users - Reviews: 1-n
+Bookings - Reviews: 1-1
+Bookings - ParkingService: 1-n
+Bookings - BookingDetails: 1-n
+Rooms - BookingDetails: 1-n
+Rooms - Reviews: 1-n
+RoomType - Rooms: 1-n
+RoomService - Rooms: 1-n

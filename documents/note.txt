@@ -1,0 +1,24 @@
+Đặt đồ Tết
+Cbi mua đồ bơi
+Ôn tiếng anh (Aptis/Foundation 5)
+
+NgoThuan #1
+Web về particle:
+(bao gồm danh sách particle, cú phép command các ví dụ và ngoại lệ).
+https://minecraft.fandom.com/wiki/Commands/particle
+
+Các video tôi đã xem:
+Kênh của Kay0S [Youtube]:
+(Giải thích về cách tạo ra 1 ảnh bằng particle, và model 3D, các ứng dụng, …)
+https://youtu.be/RKlFdzXTzVE?si=o--pKUXggTlWIkwv
+Kênh của Legitimoose [Youtube]:
+https://youtu.be/1DjAt-WuJFA?si=_tvf9kH2Ui-UNq_f
+
+Web xóa phông [Optional]:
+(dùng để giảm số lượng particle thừa -> giảm lag)
+https://www.remove.bg/
+
+Phần mềm phân tích ảnh thành các particle của kemo14331 [Github]:
+(Tạo functions cho mỗi ảnh chúng ta convert)
+https://github.com/kemo14331/Particle-Converter/releases
+

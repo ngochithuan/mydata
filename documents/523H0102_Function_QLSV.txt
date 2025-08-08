@@ -1,0 +1,62 @@
+use master
+go
+select * from dmsv
+
+-- 1. Nhập vào 1 mã khoa, trả về danh sách các sinh viên của Khoa đó.
+go
+create function dbo.f_svKhoa(@m varchar(5))
+returns table
+	return (select * from dmsv where makhoa like @m)
+go
+
+select * from dbo.f_svKhoa('TH')
+
+-- 2. Với 1 mã sinh viên và 1 mã khoa, kiểm tra xem sinh viên có thuộc khoa này không (trả về đúng hoặc sai)
+go
+create function f_checkKhoa(@s varchar(10), @k varchar(10))
+returns bit
+as
+begin
+	if((select makhoa from dmsv where masv like @s) like @k)
+		return 1
+	return 0
+end
+go
+
+declare @b bit
+set @b = dbo.f_checkKhoa('A01', 'AV')
+print @b
+
+-- 3.Tính điểm trung bình cộng của sinh viên bất kỳ
+go
+create view random as select newid() as newid
+go
+create function dbo.f_diemBatKy()
+returns table
+	return select top 1 masv, avg(diem) as DiemTB
+	from ketqua group by masv
+	order by (select newid from random)
+
+go
+select * from dbo.f_diemBatKy()
+
+
+-- 4. Nhập vào 1 sinh viên và 1 môn học, trả về các điểm thi của sinh viên này trong các lần thi của môn học đó
+go
+create function dbo.f_traDiem(@sv varchar(10), @mh varchar(10))
+returns table
+	return select * from ketqua where masv like @sv and mamh like @mh
+
+go
+select * from dbo.f_traDiem('A01', '01')
+
+-- 5. Viết hàm thống kê số lượng Sv của từng Khoa
+go
+create function dbo.f_soluongSV()
+returns table
+	return select dmkhoa.makhoa, tenkhoa, count(masv) as Soluong
+				from dmkhoa, dmsv where dmkhoa.makhoa = dmsv.makhoa
+				group by dmkhoa.makhoa, tenkhoa
+go
+select * from dbo.f_soluongSV()
+

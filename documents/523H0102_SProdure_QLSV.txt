@@ -1,0 +1,87 @@
+use master
+go
+-- 1. In danh sách các sinh viên của 1 khoa
+create proc sp_dsSV @khoa varchar(10)
+as
+begin
+	select * from dmsv where dmsv.makhoa like @khoa
+end
+
+go
+exec dbo.sp_dsSV 'AV'
+
+go
+-- 2. Nhập vào 2 sinh viên, 1 môn học, tìm xem sinh viên nào có điểm thi môn học đó lần đầu tiên là cao hơn.
+
+create proc sp_sosanh @sv1 varchar(10), @sv2 varchar(10), @mh varchar(10)
+as
+begin
+	declare @d1 float
+	declare @d2 float
+	set @d1 = (select diem from ketqua where masv like @sv1 and lanthi = 1 and ketqua.mamh like @mh)
+	set @d2 = (select diem from ketqua where masv like @sv2 and lanthi = 1 and ketqua.mamh like @mh)
+	if(@d1 > @d2)
+		print @sv1
+	else
+		print @sv2
+end
+go
+exec sp_sosanh 'A01', 'A02', '01'
+
+go
+-- 3. Nhập vào 1 môn học và 1 mã sv, kiểm tra xem sinh viên có đậu môn này trong lần thi đầu tiên không, nếu đậu thì xuất ra là “Đậu”, không thì xuất ra “Không đậu”
+
+create proc sp_checkPass1st @mh varchar(10), @sv varchar(10)
+as
+begin
+	if (@sv not in (select masv from ketqua where lanthi = 2 and ketqua.mamh like @mh))
+		print N'Đậu'
+	if (@sv in (select masv from ketqua where lanthi = 2 and ketqua.mamh like @mh))
+		print N'Không đậu'
+end
+go
+
+select * from ketqua
+go
+exec sp_checkPass1st '02', 'A01'
+
+go
+-- 4. Nhập vào 1 SV mới, kiểm tra ràng buộc khóa chính và khóa ngoại.
+select * from dmsv
+go
+create proc sp_themSV @masv varchar(10), @hosv varchar(30), @tensv varchar(30), @phai bit, @ngaysinh smalldatetime, @noisinh varchar(50), @makhoa varchar(10), @hocbong float
+as 
+begin
+	if (@masv not in (select masv from dmsv) and @makhoa in (select makhoa from dmkhoa))
+	begin
+		insert into dmsv
+		values(@masv, @hosv, @tensv, @phai, @ngaysinh, @noisinh, @makhoa, @hocbong)
+		print N'Chèn thành công'
+	end
+	else print N'Chèn thất bại'
+end
+
+go
+
+exec sp_themSV 'AA2', N'Ngô', N'Thuận', 1, '01/16/2005', N'Sóc Trăng', 'VL', 1000
+go
+
+-- 5. Nhập vào 1 sinh viên và 1 môn học, in điểm thi của sinh viên này của các lần thi môn học đó.
+
+create proc sp_traDiem @sv varchar(10), @mh varchar(10)
+as
+begin
+	declare @msg nvarchar(100)
+	set @msg = ''
+	if (@sv in (select masv from ketqua where lanthi = 1 and ketqua.mamh like @mh))
+	begin
+		set @msg = @msg + N'Lần 1:' + cast((select diem from ketqua where lanthi = 1 and ketqua.mamh like @mh and ketqua.masv like @sv) as varchar)
+	end
+	if (@sv in (select masv from ketqua where lanthi = 2 and ketqua.mamh like @mh))
+	begin
+		set @msg = @msg + N' Lần 2:' + cast((select diem from ketqua where lanthi = 2 and ketqua.mamh like @mh and ketqua.masv like @sv) as varchar)
+	end
+	print @msg
+end
+go
+exec dbo.sp_traDiem 'A02', '01'

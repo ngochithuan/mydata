@@ -1,0 +1,13 @@
+-- https://nguyenvanhieu.vn/bai-tap-sql-co-ban-va-nang-cao/
+
+-- BT1
+	-- Lấy tất cả sản phẩm có giá cao nhất trong bảng "products"
+
+select * from products where gia = (select max(gia) from products)
+
+-- BT2
+	-- Tạo ra một truy vấn để tính tổng số sản phẩm của mỗi nhà cung cấp 
+	   và hiển thị kết quả bằng cột "totalProducts"
+
+
+

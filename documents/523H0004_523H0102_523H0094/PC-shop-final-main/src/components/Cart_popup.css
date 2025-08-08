@@ -1,0 +1,397 @@
+.cart-container {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  
+}
+
+.cart-popup {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #4285f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.cart-popup:hover {
+  transform: scale(1.05);
+  background-color: #3367d6;
+}
+
+.cart-icon {
+  color: white;
+  font-size: 24px;
+}
+
+.cart-dropdown {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  min-width: 400px;
+  max-width: 1000px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  overflow: auto;
+  
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-header h5 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #666;
+}
+
+.cart-items {
+  width: 1000px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px 16px;
+}
+
+.empty-cart {
+  text-align: center;
+  color: #666;
+  padding: 20px 0;
+}
+
+.cart-footer {
+  padding: 12px 16px;
+  border-top: 1px solid #eee;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 8px 0;
+}
+
+/* Style cho button khi disabled hoặc chưa chọn item */
+.checkout-btn[disabled],
+.ant-btn-default.checkout-btn {
+  background-color: #d9d9d9;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+/* Style cho button khi đã chọn item */
+.ant-btn-primary.checkout-btn {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: white;
+}
+
+.ant-btn-primary.checkout-btn:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.checkout-btn:hover {
+  background-color: #3367d6;
+}
+
+.ant-table {
+  width: 100%;
+}
+
+.ant-table-thead > tr > th {
+  text-align: left;
+  background-color: #fafafa;
+}
+
+.ant-table-tbody > tr > td {
+  vertical-align: middle;
+}
+
+/* Style cho nút tăng/giảm */
+.ant-btn-text {
+  padding: 0 4px;
+}
+
+.ant-btn-text .anticon {
+  font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 540px) {
+  .cart-container {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .cart-popup {
+    width: 50px;
+    height: 50px;
+  }
+
+  .cart-icon {
+    font-size: 18px;
+  }
+
+  .cart-dropdown {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    max-width: 200px;
+    height: 500px;
+    max-height: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    overflow: auto;
+  }
+
+  .cart-header {
+    padding: 8px 10px;
+  }
+
+  .cart-header h5 {
+    font-size: 12px;
+  }
+
+  .close-btn {
+    font-size: 16px;
+  }
+
+  .cart-items {
+    padding: 5px 10px;
+    max-height: 1000px;
+
+  }
+
+  .cart-footer {
+    padding: 8px 10px;
+  }
+
+  .cart-total {
+    font-size: 12px;
+  }
+
+  .checkout-btn {
+    padding: 6px 0;
+    font-size: 12px;
+  }
+
+  .ant-table {
+    font-size: 12px;
+  }
+
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    padding: 6px;
+  }
+
+  .ant-table-tbody > tr > td img {
+    width: 16px;
+  }
+
+  .ant-btn-text .anticon {
+    font-size: 10px;
+  }  
+}
+
+/* Responsive adjustments */
+@media (min-width: 540px) {
+  .cart-container {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .cart-popup {
+    width: 50px;
+    height: 50px;
+  }
+
+  .cart-icon {
+    font-size: 18px;
+  }
+
+  .cart-dropdown {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    min-width:500px;
+    max-width: 700px;
+    max-height: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    overflow: auto;
+  }
+  .cart-header {
+    padding: 8px 10px;
+  }
+
+  .cart-header h5 {
+    font-size: 12px;
+  }
+
+  .close-btn {
+    font-size: 16px;
+  }
+
+  .cart-items {
+    padding: 5px 10px;
+    max-height: 1000px;
+    
+  }
+
+  .cart-footer {
+    padding: 8px 10px;
+  }
+
+  .cart-total {
+    font-size: 12px;
+  }
+
+  .checkout-btn {
+    padding: 6px 0;
+    font-size: 12px;
+  }
+
+  .ant-table {
+    font-size: 12px;
+  }
+
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    padding: 6px;
+  }
+
+  .ant-table-tbody > tr > td img {
+    width: 16px;
+  }
+
+  .ant-btn-text .anticon {
+    font-size: 10px;
+  }  
+}
+
+/* Modal styles */
+.ant-modal-root {
+    position: relative;
+    z-index: 1001;
+}
+
+.ant-modal-wrap {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 1001;
+}
+
+.ant-modal {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: auto !important;
+    max-width: 90vw;
+    top: 0 !important;
+    transform: none !important;
+}
+
+.ant-modal-content {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+        0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Address Modal specific styles */
+.ant-modal.address-modal {
+    width: 500px !important;
+}
+
+/* Payment Modal specific styles */
+.payment-info {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.payment-info .qr-section {
+    flex: 0 0 40%;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dee2e6;
+}
+
+.payment-info .qr-section img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.payment-info .payment-details {
+    flex: 0 0 60%;
+}
+
+.payment-info .table {
+    margin-bottom: 1rem;
+}
+
+.payment-info .table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+.payment-info .payment-note {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #f0ad4e;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .ant-modal {
+        width: 95vw !important;
+    }
+
+    .payment-info {
+        flex-direction: column;
+    }
+
+    .payment-info .qr-section,
+    .payment-info .payment-details {
+        flex: 1 1 auto;
+    }
+}

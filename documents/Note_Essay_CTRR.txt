@@ -1,0 +1,15 @@
+Câu 3:
+Mã hóa và giải mã message với RSA Cryptosystem
+https://math.asu.edu/sites/default/files/rsa_0.pdf
+https://en.wikipedia.org/wiki/RSA_cryptosystem
+
+Kiểm tra hệ thống mật mã RSA đã triển khai bằng cách sử dụng các message mẫu và xác minh kết quả.
+Chụp kết quả màn hình của bạn và giải thích chúng trong tài liệu báo cáo của bạn.
+
+Đo thời gian mã hóa và giải mã từ những message có độ dài khác nhau
+- Trục x là độ dài message
+- Trục y là thời gian tiêu tốn
+Vẽ biểu đồ
+
+Kết luận kèm đề xuất để cải thiện RSA Cryptosystem
+

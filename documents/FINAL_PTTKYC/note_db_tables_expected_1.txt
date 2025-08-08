@@ -1,0 +1,95 @@
+Table: Users
+-> thuộc tính đê phân biệt Admin, Staff (Receptionist, House keeper, Parking Staff), Customer
++ userId
++ fullname (required)
++ email?
++ phone (required)
++ isStaff
++ roleName (normalStaff, cleaningStaff, guard, admin)
+
+
+Table: Rooms
++ roomId
++ roomTitle
++ roomTypeId
++ roomDescription
++ roomImgs
++ roomStatus (available, checkedin, pending -> để dọn cbi phòng)
+
+
+Table: RoomType
++ roomTypeId
++ Description
++ Features
++ Amenities
++ Img
++ Price
+
+
+Table: Bookings (theo lần nghỉ/đặt)
++ bookingId (PK)
++ userId? (nullable, nếu user đã login)
++ fullname? (nullable)
++ email? (nullable)
++ phone? (nullable)
++ checkInDate
++ checkOutDate
++ totalPrice
++ paymentStatus
+
+
+Table: BookingDetails (theo từng phòng)
++ bookingDetailId (PK)
++ bookingId (FK -> Bookings.bookingId)
++ roomId (FK -> Rooms.roomId)
++ pricePerNight (lưu snapshot giá tại thời điểm book)
++ roomPriceTotal (phòng này bao nhiêu đêm * giá)
+
+
+Table: Reviews (theo lần nghỉ/đặt)
++ reviewId
++ roomId
++ userId
++ bookingId
++ reviewContent
++ rating
+
+
+Table: RoomService (theo từng phòng)
++ roomServiceId
++ roomId
++ datetime
++ isCleaningDone (= false default)
+
+
+Table: ParkingService (theo lần nghỉ/đặt)
++ parkingServiceId
++ bookingId
++ parkingPlateNo = VARCHAR -> hiển thị ra bằng 1 textarea, staff nhập vô. Vd: 51G-61660, 52F-67558
+
+----------------------------------------------------------------------
+
+{
+    id: 0,
+    title: "Economy Room",
+    type: "CITY VIEW | DOUBLE BED | 41 M²",
+    description:
+      "Comfortable and spacious room with views over the city featuring a double bed or 2 single beds, LCD TV, minibar, safe, and a range of quality amenities and excellent services.",
+    img: bed1,
+  },
+  {
+    id: 1,
+    title: "Deluxe Room",
+    type: "RIVER VIEW | DOUBLE BED | 45 M²",
+    description:
+      "Step into luxury and enjoy the views of the river from your room. Perfect for families or business travellers who appreciate space and luxurious design, offering a spacious lounge with a comfortable sofa and a separate bedroom.",
+    img: bed2,
+  },
+  {
+    id: 2,
+    title: "Premium Room",
+    type: "CITY VIEW | KING-SIZE BED | 55 M²",
+    description:
+      "Our most lavish rooms offer a spacious king-size bed and large windows with city views. The separate lounge has a sofa and a dining table for up to 4 people. Enjoy magnificent city views from all of the spaces in this suite.",
+    img: bed3,
+  },
